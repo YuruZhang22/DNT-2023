@@ -1,4 +1,4 @@
-# The final codes are in the latest "adv" branch #
+# The code is in simulator_reality #
 
 git pull --all 
 
