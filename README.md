@@ -1,4 +1,4 @@
-# The code is in simulator_reality #
+# The code is in simulation_reality #
 
 git pull --all 
 
