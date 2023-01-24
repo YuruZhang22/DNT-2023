@@ -1,0 +1,9 @@
+import pickle, os, time
+
+dataset0 = pickle.load(open("saves/RESULTS_PHASE_2_ATTACK_0_topk_5.pkl", "rb"))
+dataset1 = pickle.load(open("saves/RESULTS_PHASE_2_ATTACK_1_topk_5.pkl", "rb"))
+dataset2 = pickle.load(open("saves/RESULTS_PHASE_2_ATTACK_2_topk_5.pkl", "rb"))
+dataset3 = pickle.load(open("saves/RESULTS_PHASE_2_ATTACK_3_topk_5.pkl", "rb"))
+dataset  = dataset0 + dataset1 + dataset2 + dataset3
+
+pickle.dump(dataset, open("saves/RESULTS_PHASE_2_ATTACK_topk_5.pkl", "wb" ))
